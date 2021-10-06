@@ -12,8 +12,8 @@ const About = () => {
           </p>
         </div>
         <div className="flex pt-4 mb-4">
-          <div className="flex card_wrapper text-center w-full">
-            <div className="card pt-10 bg-gray-200 rounded-2xl m-5">
+          <div  className="flex card_wrappers text-center w-full flex-wrap  lg:flex-nowrap ">
+            <div className="card pt-10 bg-gray-200 rounded-2xl m-5 md:w-full lg:w-1/3 ">
               <img
                 className="inline"
                 src="https://img.icons8.com/wired/90/000000/quill-with-ink.png"
@@ -26,7 +26,7 @@ const About = () => {
                 accusamus veniam!
               </p>
             </div>
-            <div className="card pt-10 bg-gray-200 m-5 rounded-2xl">
+            <div className="card pt-10 bg-gray-200 m-5 rounded-2xl md:w-full lg:w-1/3   ">
               <img
                 className="inline"
                 src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/90/000000/external-web-development-coding-kiranshastry-lineal-kiranshastry.png"
@@ -41,7 +41,7 @@ const About = () => {
                 accusamus veniam!
               </p>
             </div>
-            <div className="card pt-10 bg-gray-200 rounded-2xl m-5">
+            <div className="card pt-10 bg-gray-200 rounded-2xl m-5 md:w-full lg:w-1/3   ">
               <img
                 className="inline"
                 src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-marketing-marketing-and-growth-justicon-lineal-color-justicon.png"
