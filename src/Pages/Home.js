@@ -8,7 +8,7 @@ import Info from './Info';
 const Home = () => {
     return (
         <> 
-        <div className="hero min-h-screen">
+        <div className="hero min-h-screen" style={{backgroundImage:"URL('/Images/home2.jpg')"}}  >
           <Navbar /> 
           <Hero/>
           </div> 

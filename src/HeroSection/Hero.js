@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className="container mx-auto p-6">
+        <div className="container mx-auto p-6" >
         <h1 className="md:text-5xl text-4xl text-white uppercase font-light pt-60 mb-3">Good <span className="text-red-400">Business</span> Inside You</h1>
         <h1 className="md:text-5xl text-4xl text-white uppercase font-light mb-8"><span className="text-red-400">Filmy</span> Studio</h1>
         <buttonWrapper className="py-6">

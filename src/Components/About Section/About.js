@@ -2,6 +2,31 @@ import React from "react";
 // import {FaDropbox} from "react-icons/fa";
 
 const About = () => {
+
+const ServiceArray= [
+{
+  id:1,
+  icon:"https://img.icons8.com/wired/90/000000/quill-with-ink.png",
+  title:"Graphic Design",
+  desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae? Alias ducimus deserunt harum quam minus, quaerat aut accusamus veniam!"
+},
+{
+  id:2,
+  icon:"https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/90/000000/external-web-development-coding-kiranshastry-lineal-kiranshastry.png",
+  title:"Graphic Design",
+  desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae? Alias ducimus deserunt harum quam minus, quaerat aut accusamus veniam!"
+},
+{
+  id:3,
+  icon:"https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-marketing-marketing-and-growth-justicon-lineal-color-justicon.png",
+  title:"Graphic Design",
+  desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae? Alias ducimus deserunt harum quam minus, quaerat aut accusamus veniam!"
+},
+
+
+]
+
+
   return (
     <div className="about">
       <div className="container mx-auto py-5">
@@ -12,48 +37,32 @@ const About = () => {
           </p>
         </div>
         <div className="flex pt-4 mb-4">
-          <div className="flex card_wrapper text-center w-full">
-            <div className="card pt-10 bg-gray-200 rounded-2xl m-5">
+          <div  className="flex card_wrappers text-center w-full flex-wrap  lg:flex-nowrap ">
+
+          {
+            ServiceArray.map((item,i)=>{
+              console.log(item)
+              return(
+
+             
+
+
+            <div key={i} className="card pt-10 bg-gray-200 rounded-2xl m-5 md:w-full lg:w-1/3 ">
               <img
                 className="inline"
-                src="https://img.icons8.com/wired/90/000000/quill-with-ink.png"
+                src={item.icon}
                 alt="ink"
               />
-              <h1 className="font-body text-3xl p-5">Graphic Design</h1>
+              <h1 className="font-body text-3xl p-5">{item.title}</h1>
               <p className="font-thin text-gray-400 pb-4 text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-                quae? Alias ducimus deserunt harum quam minus, quaerat aut
-                accusamus veniam!
+                {item.desc}
               </p>
             </div>
-            <div className="card pt-10 bg-gray-200 m-5 rounded-2xl">
-              <img
-                className="inline"
-                src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/90/000000/external-web-development-coding-kiranshastry-lineal-kiranshastry.png"
-                alt="ink"
-              />
-              <h1 className="font-body text-3xl p-5 text-red-400">
-                Development
-              </h1>
-              <p className="font-thin text-gray-400 pb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-                quae? Alias ducimus deserunt harum quam minus, quaerat aut
-                accusamus veniam!
-              </p>
-            </div>
-            <div className="card pt-10 bg-gray-200 rounded-2xl m-5">
-              <img
-                className="inline"
-                src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-marketing-marketing-and-growth-justicon-lineal-color-justicon.png"
-                alt="ink"
-              />
-              <h1 className="font-body text-3xl p-5">Marketing</h1>
-              <p className="font-thin text-gray-400 pb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-                quae? Alias ducimus deserunt harum quam minus, quaerat aut
-                accusamus veniam!
-              </p>
-            </div>
+          
+            
+            )
+            })
+          }
           </div>
         </div>
       </div>

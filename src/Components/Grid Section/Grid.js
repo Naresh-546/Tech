@@ -16,12 +16,51 @@ const Grid = () => {
         </div>
       </div>
       <div className="grid mb-12">
-        <div className="">1</div>
-        <div className="">2</div>
-        <div className="">3</div>
-        <div className="">4</div>
-        <div className="">5</div>
-        <div className="">6</div>
+      <div className=" py-10 md:pt-0 w-full  grid grid-cols-4   ">
+          <div className="row-span-2">
+            <img
+              src="/Images/joshua-hibbert-Pn6iimgM-wo-unsplash.jpg"
+              className="object-cover h-full lg:h-387 xl:h-564 2xl:h-full  "
+              alt="img" 
+            />
+          </div>
+          <div className=" ">
+            <img
+              src="/Images/victor-furtuna-0mchrVHAYzg-unsplash.jpg"
+              className="object-cover h-full "
+              alt="k4@2x-img"
+            />
+          </div>
+
+          <div className="">
+            <img
+              src="/Images/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg"
+              className="object-cover h-full "
+              alt="k1@2sx-img"
+            />
+          </div>
+          <div className="">
+            <img
+              src="/Images/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg"
+              className="object-cover h-full "
+              alt="k1@2sx-img"
+            />
+          </div>
+          <div className="">
+            <img
+              src="/Images/saikat-das-UJLbMuWgq5E-unsplash.jpg"
+              className="object-cover h-full "
+              alt="k1@2sx-img"
+            />
+          </div>
+          <div className="col-span-2  ">
+            <img
+              src="/Images/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg"
+              className="object-cover h-full "
+              alt="k2-img"
+            />
+          </div>
+        </div>
       </div>
     </>
   );

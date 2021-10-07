@@ -5,7 +5,9 @@
 }
 
 .hero {
-  background-image: url(/src/Images/home2.jpg);
+  /* background-image: url(/Images/home2.jpg); */
+
+  /* background-image: url("/Images/home2.jpg"); */
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -15,7 +17,7 @@
 }
 
 .my_bg {
-  background-image: url(./Svg/subtle-prism.svg);
+  /* background-image: url(./Svg/subtle-prism.svg); */
 }
 
 .my_p {
@@ -33,6 +35,14 @@
 }
 
 .photo {
-  background-image: url(/src/Images/victor-furtuna-0mchrVHAYzg-unsplash.jpg);
+  /* background-image: url(/src/Images/victor-furtuna-0mchrVHAYzg-unsplash.jpg); */
   object-fit: cover;
+}
+
+/* media query */
+
+@media (max-width: 425px) {
+  .card_wrapper {
+    flex-wrap: wrap;
+  }
 }
