@@ -71,11 +71,11 @@ const ServiceArray= [
         // New Sub-section
       }
 
-      <div className="my_bg flex justify-around w-full pb-12">
-        <div className="w-1/2">
+      <div className="my_bg flex justify-around w-full pb-12 md:flex-row flex-col">
+        <div className="md:w-1/2">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Norco_Range.jpg"
-            className="aboutImg"
+            className="aboutImg "
             alt="aboutImg"
           />
           <p className="text-center text-3xl">
@@ -84,7 +84,7 @@ const ServiceArray= [
             Professional for <span className="text-red-400">Actors </span>
           </p>
         </div>
-        <div className="w-1/2 pt-20">
+        <div className="md:w-1/2 pt-20">
           <h1 className="text-4xl text-red-400 mb-4">About Filmy Studio</h1>
           <p className="text-gray-500 text-lg mb-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet

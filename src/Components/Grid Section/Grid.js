@@ -34,7 +34,7 @@ const Grid = () => {
 
           <div className="">
             <img
-              src="/Images/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg"
+              src="/Images/road.jpg"
               className="object-cover h-full "
               alt="k1@2sx-img"
             />
@@ -48,14 +48,14 @@ const Grid = () => {
           </div>
           <div className="">
             <img
-              src="/Images/saikat-das-UJLbMuWgq5E-unsplash.jpg"
+              src="/Images/taj.jpg"
               className="object-cover h-full "
               alt="k1@2sx-img"
             />
           </div>
           <div className="col-span-2  ">
             <img
-              src="/Images/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg"
+              src="/Images/saikat-das-UJLbMuWgq5E-unsplash.jpg"
               className="object-cover h-full "
               alt="k2-img"
             />

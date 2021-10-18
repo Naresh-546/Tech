@@ -17,7 +17,7 @@
 }
 
 .my_bg {
-  /* background-image: url(./Svg/subtle-prism.svg); */
+  background-image: url(./Svg/subtle-prism.svg);
 }
 
 .my_p {
@@ -32,11 +32,6 @@
 
 .my_background {
   background-color: rgba(15, 15, 15, 0.897);
-}
-
-.photo {
-  /* background-image: url(/src/Images/victor-furtuna-0mchrVHAYzg-unsplash.jpg); */
-  object-fit: cover;
 }
 
 /* media query */
